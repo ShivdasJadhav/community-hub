@@ -5,6 +5,7 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy import DateTime, func
 from sqlalchemy.orm import Mapped, mapped_column
 
+
 class TimestampMixin:
     """
     Adds created_at and updated_at timestamps to a model.

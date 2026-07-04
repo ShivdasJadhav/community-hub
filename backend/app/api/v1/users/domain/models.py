@@ -69,8 +69,4 @@ class User(UUIDMixin, TimestampMixin, Base):
     )
 
     def __repr__(self) -> str:
-        return (
-            f"User(id={self.id!s}, "
-            f"email='{self.email}', "
-            f"is_active={self.is_active})"
-        )
+        return f"User(id={self.id!s}, email='{self.email}', is_active={self.is_active})"

@@ -27,6 +27,10 @@ class Settings(BaseSettings):
 
     DEBUG: bool = True
 
+    CORS_ORIGINS: list[str] = Field(
+        default=["http://localhost:5173", "http://127.0.0.1:5173"],
+    )
+
     # ------------------------------------------------------------------
     # Database
     # ------------------------------------------------------------------
@@ -39,9 +43,16 @@ class Settings(BaseSettings):
     # Redis
     # ------------------------------------------------------------------
 
-    REDIS_URL: str = Field(
-        default="redis://localhost:6379/0"
-    )
+    REDIS_URL: str = Field(default="redis://localhost:6379/0")
+
+    # ------------------------------------------------------------------
+    # JWT
+    # ------------------------------------------------------------------
+
+    SECRET_KEY: str = Field(default="change-me-in-production")
+    JWT_ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    REFRESH_TOKEN_EXPIRE_DAYS: int = 7
 
 
 @lru_cache
