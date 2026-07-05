@@ -4,8 +4,6 @@ The Community Hub web client. A React single-page application for community mana
 
 **Stack:** React 19 · Vite 8 · Tailwind CSS 4 · React Router · TanStack Query · Axios
 
-**Implemented today:** landing page, user registration/login, JWT authentication, protected dashboard.
-
 ---
 
 ## Prerequisites
@@ -136,3 +134,11 @@ For the full folder philosophy and contribution guidelines, see [Client folder s
 - [Backend README](../backend/README.md)
 - [Root README](../README.md)
 - [Client folder structure](../readme/client-folder-structure.md)
+
+## Every frontend task should include:
+
+- Responsive layouts.
+- Accessibility considerations (keyboard navigation, ARIA labels where applicable).
+- Client-side validation.
+- Loading, empty, and error states.
+- Reusable components where practical.

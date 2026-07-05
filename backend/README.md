@@ -195,3 +195,12 @@ For architecture principles and feature module conventions, see [Server folder s
 - [Frontend README](../frontend/README.md)
 - [Root README](../README.md)
 - [Server folder structure](../readme/server-folder-structure.md)
+
+
+## Every backend task should include:
+
+- Database migrations where required.
+- Input validation using Pydantic models.
+- Authorization checks based on community roles.
+- Unit tests for business logic.
+- API documentation via OpenAPI.

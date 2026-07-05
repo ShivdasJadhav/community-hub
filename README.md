@@ -149,3 +149,28 @@ Common fixes:
 - **Frontend can't reach API** → `VITE_API_BASE_URL` must be `http://localhost:8000/api/v1`
 - **Port conflicts** → `docker compose down`, then free the port or change `BACKEND_PORT`/`FRONTEND_PORT`
 - **Need a clean slate** → `docker compose down -v` then `docker compose up --build`
+
+## General Development Standards (applies to all subtasks)
+
+### Every backend task should include:
+
+Database migrations where required.
+Input validation using Pydantic models.
+Authorization checks based on community roles.
+Unit tests for business logic.
+API documentation via OpenAPI.
+
+### Every frontend task should include:
+
+Responsive layouts.
+Accessibility considerations (keyboard navigation, ARIA labels where applicable).
+Client-side validation.
+Loading, empty, and error states.
+Reusable components where practical.
+
+### Every integration task should include:
+
+Strongly typed API client usage.
+Consistent error mapping between backend and UI.
+Cache invalidation or data refresh after mutations.
+End-to-end verification that the feature works as intended across the full stack.
