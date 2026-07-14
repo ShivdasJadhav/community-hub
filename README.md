@@ -2,14 +2,37 @@
 
 A community management platform for organizing members, events, announcements, bookings, and more. Built as a monorepo with a React frontend and a FastAPI backend.
 
-**Stack:**  
+## 🛠️ Tech Stack
+
+**Frontend**
+
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square)
+
+**Backend**
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white&style=flat-square)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white&style=flat-square)
+![Alembic](https://img.shields.io/badge/Alembic-4B5563?style=flat-square)
+
+**Database & Cache**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square)
+
+**Infrastructure**
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
+
+**Development**
+
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?logo=ruff&logoColor=black&style=flat-square)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest&logoColor=white&style=flat-square)
 
 ---
 
