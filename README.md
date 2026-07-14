@@ -165,6 +165,27 @@ For hybrid development, see the [platform setup guides](readme/development-setup
 
 ---
 
+## Contributing
+
+We welcome contributions from the community! Whether you're fixing bugs, adding features, improving documentation, or enhancing the UI/UX, your help is valuable.
+
+### Contribution Guidelines
+
+Before you start contributing, please review:
+
+- **[CONTRIBUTING.md](readme/CONTRIBUTING.md)** — Code of conduct, ways to contribute, branch naming conventions, commit message standards, and more
+- **[PR_INSTRUCTION.md](PR_INSTRUCTION.md)** — Pull Request guidelines and best practices
+
+### Quick Start for Contributors
+
+1. Check [existing issues](https://github.com/ShivdasJadhav/community-hub/issues) and [pull requests](https://github.com/ShivdasJadhav/community-hub/pulls)
+2. Fork the repository
+3. Follow our [branch naming conventions](readme/CONTRIBUTING.md#branch-naming)
+4. Make your changes and commit with [meaningful messages](readme/CONTRIBUTING.md#commit-messages)
+5. Open a Pull Request and follow the [PR guidelines](PR_INSTRUCTION.md)
+
+---
+
 ## Getting Help
 
 If something does not work, check the **Troubleshooting** section in your platform setup guide:
